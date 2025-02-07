@@ -22,7 +22,7 @@
 
 .text {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   color: white;
 }
 
@@ -35,13 +35,14 @@
 }
 
 .button {
-  font-size: 1.2em;
+  font-size: 1em;
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
   cursor: pointer;
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
 .botones {
@@ -63,4 +64,19 @@
   font-weight: bold;
   font-size: 1.2rem;
   text-align: center;
+}
+.buttonClean {
+  font-size: 1em;
+  padding: 5px;
+  border: 1px solid red;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #ff2222;
+  color: #fff;
+}
+.buttonClean:hover {
+  background-color: #ff0000;
 }
